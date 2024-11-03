@@ -1,0 +1,41 @@
+.jumbotron.jumbotron-fluid.bg-image1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background: url(../assets/khari.jpg) no-repeat;
+    background-size: cover;
+  }
+.jumbotron.jumbotron-fluid.bg-image2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background: url(../assets/barbq.jpg) no-repeat;
+    background-size: cover;
+  }
+.jumbotron.jumbotron-fluid.bg-image3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background: url(../assets/fastfood.jpeg) no-repeat;
+    background-size: cover;
+  }
+.jumbotron.jumbotron-fluid.bg-image4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background: url(../assets/beverges.jpeg) no-repeat;
+    background-size: cover;
+  }
+  .jumbotron.jumbotron-fluid.bg-image1,.bg-image2,.bg-image3,.bg-image {
+    transition: background-size 0.3s ease-in-out;
+    border: 1px solid #ddd;
+  border-radius: 10px;
+  }
+  
+//   .jumbotron.jumbotron-fluid.bg-image1:hover,.bg-image2:hover,.bg-image3:hover,.bg-image4:hover {
+//     background-size: auto;
+//   }

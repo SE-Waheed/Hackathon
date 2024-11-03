@@ -1,13 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
+import "./config/global"
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom';
+import AuthContext from './context/AuthContext';
+import AppContext from './context/AppContext';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <BrowserRouter>
+    <AuthContext>
+      <AppContext>
+        
+
+
     <App />
+      </AppContext>
+    </AuthContext>
+    </BrowserRouter>
   </React.StrictMode>
 );
 

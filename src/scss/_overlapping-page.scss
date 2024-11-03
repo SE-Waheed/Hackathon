@@ -1,0 +1,19 @@
+.overlapping-page {
+    position: absolute;
+    top: 55px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 500px;
+    min-height: 450px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    z-index: 1; /* Make sure this page is on top of the previous page */
+  }
+  
+  .overlapping-page-content {
+    height: 100%;
+    overflow-y: auto;
+    padding: 20px;
+  }
